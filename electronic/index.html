@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        nav {
+
+            height: 10vh;
+            width: 100vw;
+            padding-left: 8vw;
+            padding-right: 8vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        ul li {
+            display: inline-block;
+            justify-content: space-between;
+            align-items: flex;
+            margin: 8px;
+            padding: 8px;
+            border-radius: 5px;
+
+        }
+
+        ul li:hover {
+            background-color: #D7DDE8;
+
+        }
+
+        #headphones {
+            border: 2.5 solid #D7DDE8;
+            padding: 8px;
+            font-weight: 600;
+
+        }
+
+        .main {
+            height: 60vh;
+            width: 88vw;
+            margin-left: 6vw;
+            background: #757F9A;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #D7DDE8, #757F9A);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            padding: 2.5rem;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+
+
+        }
+
+        .content {
+            width: 40vw;
+            margin-top: 4rem;
+            margin-left: 2rem;
+
+
+        }
+
+        .content p {
+            font-size: 18px;
+            margin-top: 1rem;
+        }
+
+        .myimg img {
+            height: 18rem;
+            width: 15rem;
+        }
+
+        .btn {
+            color: white;
+            background-color: gray;
+            border: 2px solid rgb(80, 72, 72);
+            border-radius: 5px;
+            padding: 5px;
+            font-weight: 500;
+            box-shadow: 3px 3px black;
+            margin-top: 1rem;
+
+        }
+
+        .btn:hover {
+            background-color: #D7DDE8;
+            color: black;
+        }
+
+    .tagline{
+        font-size: 18px;
+        margin-left: 10rem;
+        margin-top: 1rem;
+
+    }
+.flag{
+    height: 15px;
+    width: 35px;
+    padding: 0;
+}
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li id="headphones">Headphones</li>
+            <li>Speakers</li>
+            <li>Earbuds</li>
+            <li>All Products</li>
+        </ul>
+
+        <ul>
+            <li><img src="assets/images/download.png" class="flag" alt="flag"></li>
+            <Li>Login</Li>
+            <Li>Refer</Li>
+            <Li>Cart</Li>
+        </ul>
+
+    </nav>
+    <div class="main">
+        <section class="myimg">
+            <img src="assets/images/headphones-png-20157.png" alt="headphones">
+        </section>
+
+        <section class="content">
+            <h1>Plug it, listen to it, feel it!</h1>
+            <p>Put on your headphones, turn down the noise, and feel.Create the right environment for yourself.</p>
+            <button type="submit" class="btn">Buy Now</button>
+        </section>
+
+    </div>
+    <p class="tagline">The most incredible range of wireless earphones, earbuds, headphones.<a href="#">click here</a></p>
+
+<br>
+    <hr>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .box{
+        height: 40vh;
+        width: 60vw;
+        border: 1px solid red;
+        margin-top: 20vh;
+      margin-left: 20vw;
+    }
+.ball{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: blue;
+    /* margin-left: 50vw;
+    margin-top: 30vh; */
+    animation: myanimation 1s infinite;
+}
+
+/* @keyframes myanimation{
+    from{
+transform: translateX(-10vw);
+    }
+    to{
+transform: translateX(0);
+    }
+} */
+
+@keyframes myanimation{
+    0%{
+transform: translateY(20vh);
+    }
+    50%
+    {
+transform: translateX(0);
+    }
+    100%
+    {
+transform: translateY(30vh);
+background-color: red;
+    }
+}
+
+</style>
+
+<body>
+    <div class="box">
+    <div class="ball">
+ </div>
+ </div>
+</body>
+</html>

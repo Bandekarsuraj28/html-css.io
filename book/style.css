@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+  
+}
+
+.carousel-inner{
+    height: 90vh !important;
+}
+
+.accordion{
+    width: 19vw;
+    height: 7vh !important;
+    padding: 2px;
+  
+}
+
+#new{
+text-align: center !important;
+margin: 20px;
+}
+
+#horror{
+    text-align: center !important;
+    margin: 20px;
+    }
+    
+ #fiction{
+        text-align: center !important;
+        margin: 20px;
+      }
+        
+.card{
+    padding: 5px;
+    margin: 5px;
+}
+.card img{
+    height: 20rem !important;
+    padding: 15px;
+}
